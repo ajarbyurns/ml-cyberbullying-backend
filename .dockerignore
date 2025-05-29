@@ -1,0 +1,27 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Git & Version Control
+.git/
+.gitignore
+
+# IDE / Editor Config
+.vscode/
+.idea/
+
+# OS / Misc Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

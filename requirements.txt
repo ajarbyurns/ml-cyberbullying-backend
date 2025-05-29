@@ -1,0 +1,26 @@
+# FastAPI backend
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Core ML stack
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+matplotlib==3.8.4
+
+# NLP processing
+nltk==3.8.1
+spacy==3.7.4
+
+# Text cleaning & utilities
+regex==2024.4.16
+
+# Data validation
+pydantic==2.7.1
+
+# Logging
+loguru==0.7.2
+
+# Jupyter Notebooks for exploration
+jupyterlab==4.2.0

@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# IDE / Editor Config
+.vscode/
+.idea/
+
+# OS / Misc Files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.img
