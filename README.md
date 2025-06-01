@@ -20,12 +20,6 @@ docker-compose up --build
 python3 app/ml/train.py
 ```
 
-## Run With Uvicorn
-```yaml
-#at project root
-python3 -m uvicorn app.api.main:app --reload
-```
-
 ## API Endpoint(s)
 ```
 curl -X POST http://127.0.0.1:8000/predict \
