@@ -17,16 +17,26 @@ docker-compose up --build
 ## Model Training
 
 ```
-python app/ml/train/py
+python3 app/ml/train.py
+```
+
+## Run With Uvicorn
+```yaml
+#at project root
+python3 -m uvicorn app.api.main:app --reload
 ```
 
 ## API Endpoint(s)
-```yaml
-POST /predict #make predictions from text input
+```
+curl -X POST http://127.0.0.1:8000/predict \
+     -H "Content-Type: application/json" \
+     -d '{"text": "I hate you!"}'
 ```
 
-## Finish
+## Finish (if you use Docker)
 In the terminal, press Ctrl-C and then enter the command below
 ```
 docker-compose down
 ```
+## Sample
+![](/Users/barryjuans/Downloads/Screenshot 2025-06-01 at 20.57.32.png)
