@@ -33,4 +33,4 @@ In the terminal, press Ctrl-C and then enter the command below
 docker-compose down
 ```
 ## Sample
-![](/Users/barryjuans/Downloads/Screenshot 2025-06-01 at 20.57.32.png)
+<img width="566" alt="Screenshot 2025-06-01 at 20 57 32" src="https://github.com/user-attachments/assets/d99d32e1-6423-4e2d-bab0-ed0317ddaa5b" />
